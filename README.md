@@ -18,3 +18,15 @@ The objective of this project is to demonstrate the usage of lambda expressions 
 ## Instructions to Run:
 1. Clone or download the repository.
 2. Compile the Java files:
+javac src/MathOperation.java src/StringOperation.java src/Main.java
+3. Run the program:
+java -cp src lambdaexpressions.Main
+
+The program will display the results of the tasks, including mathematical operations, sorted and filtered lists, string manipulations, and function compositions.
+
+## Test Cases:
+- Task 1: Runnable Lambda Expression outputs a greeting message.
+- Task 2: Performs addition, subtraction, multiplication, and division operations with lambda expressions.
+- Task 3: Sorts a list of strings and filters out even numbers from a list of integers.
+- Task 4: Checks if a string is empty using `Predicate`, and converts a string to uppercase using `Function`.
+- Task 5: Composes two functions using `andThen` and demonstrates custom string operations like concatenation and finding the longer string.
